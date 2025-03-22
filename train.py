@@ -9,7 +9,7 @@ np.random.seed(42)
 # Possible categories
 product_categories = ['Electronics', 'Clothing', 'Books']
 shipping_methods = ['Standard', 'Express', 'Same-day']
-customer_locations = ['CityA', 'CityB', 'CityC']
+customer_locations = ['Navsari', 'Surat', 'Gurugram']
 
 data = {
     'product_category': np.random.choice(product_categories, 200),
